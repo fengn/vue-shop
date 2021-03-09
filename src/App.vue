@@ -11,6 +11,7 @@
       :cart="cart"
       @addItem="addItem"
       @delete-item="deleteItem"
+      :cart-total="cartTotal"
     />
   </div>
 </template>
